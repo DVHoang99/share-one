@@ -6,13 +6,13 @@ module.exports = {
     connection: {
       host:
         process.env.SHAREONE_DATABASE_HOST ||
-        "ec2-3-217-219-146.compute-1.amazonaws.com",
+        "ec2-54-243-92-68.compute-1.amazonaws.com",
       port: Number(process.env.SHAREONE_DATABASE_PORT) || 5432,
-      user: process.env.SHAREONE_DATABASE_USER || "ehjfsdmsqsskao",
+      user: process.env.SHAREONE_DATABASE_USER || "fktyeufzyczmfs",
       password:
         process.env.SHAREONE_DATABASE_PASSWORD ||
-        "2e0a8485ec2de2acca25b61069dc91349a8dea591b8d9922e30d3d91c3e107c4",
-      database: process.env.SHAREONE_DATABASE_DATABASE || "duh04bp02dau2",
+        "b61f403027442aa41b56ab3e123688f6e15ad88b32131fc86fb9ac7e5679ac2e",
+      database: process.env.SHAREONE_DATABASE_DATABASE || "d7lmb0co06qp5j",
       ssl: {
         rejectUnauthorized: false,
       },

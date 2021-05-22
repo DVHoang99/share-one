@@ -21,10 +21,6 @@
     "start:dev": "node bin/www.js",
     "start": "nodemon bin/www.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@2359media.github.com:tuanat2359media/shareone.git"
-  },
   "author": "Tuan Nguyen <tuan.nguyen@2359media.com>",
   "license": "Apache-2.0"
 }
